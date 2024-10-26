@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #e2e2e2;
+}
+
+.services, .customers, .team {
+    padding: 20px;
+    text-align: center;
+}
+
+.service-item {
+    margin: 20px;
+}
+
+.customer-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.customer-logos img {
+    margin: 10px;
+    height: 50px; /* Adjust size as needed */
+}
+
+.team-member {
+    display: inline-block;
+    margin: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

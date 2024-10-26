@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twiscode</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body class="bg-slate-100">
+        <nav class="flex justify-between px-24 py-4 bg-white">
+            <h1 class="text-xl md:text-2xl font-bold">twisc<span class="bg-gradient-to-tr from-green-400 to-yellow-300 bg-clip-text text-transparent">od</span>e</h1>
+            <ul class="flex gap-10 font-semibold">
+                <li class="hover:underline"><a href="">Home</a></li>
+                <li class="hover:underline"><a href="">Work</a></li>
+                <li class="hover:underline"><a href="">Service</a></li>
+                <li class="hover:underline"><a href="">Our Customers</a></li>
+                <li class="hover:underline"><a href="">Team</a></li>
+                <li class="hover:underline"><a href="">Carrier</a></li>
+                <li class="hover:underline"><a href="">Contact</a></li>
+                <li class="cursor-pointer"><i class="ph ph-magnifying-glass" id="search-icon"></i></li>
+            </ul>
+        </nav>
+        <div id="search-container" class="fixed top-0 right-0 w-80 h-full bg-gray-200 transform translate-x-full transition-transform duration-300">
+            <div class="flex items-center p-4">
+                <input type="text" placeholder="Search..." class="w-full p-2 border rounded" />
+                <button id="close-search" class="ml-2 p-2 px-3 bg-red-500 hover:bg-red-600 transition-all duration-300 text-white rounded">
+                    <i class="ph ph-x"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="flex items-center justify-between px-24 py-12 bg-white shadow-lg h-[600px]">
+            <div class="w-1/2">
+                <h1 class="text-6xl font-extrabold mb-4">We Code</h1>
+                <h1 class="text-6xl font-extrabold mb-6">We Deliver</h1>
+                <p class="text-lg text-gray-700 mb-6">
+                    Twiscode specializes in developing high-performing mobile and web applications.
+                </p>
+                <button class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 transition">
+                    Learn More
+                </button>
+            </div>
+            <div class="w-1/2 h-[500px] flex justify-center">
+                <img src="./img/this-woman.png" alt="Woman with Laptop" class="rounded-lg">
+            </div>
+        </div>
+
+        <section class="py-12 bg-white">
+            <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div class="flex items-center justify-center">
+                <img src="./img/laptop.jpg" alt="Laptop image" class="rounded-lg shadow-lg w-[500px] h-[600px]">
+              </div>
+              <div class="space-y-24">
+                <h2 class="text-3xl font-bold text-gray-900">What We Do?</h2>
+                <ul class="space-y-4 text-gray-600">
+                  <li>
+                    <h3 class="text-xl font-semibold">Mobile Applications</h3>
+                    <p>Build scalable mobile apps with user-friendly interfaces and seamless experiences.</p>
+                  </li>
+                  <li>
+                    <h3 class="text-xl font-semibold">Web Applications</h3>
+                    <p>Develop robust web apps using the latest technologies for speed, security, and scalability.</p>
+                  </li>
+                  <li>
+                    <h3 class="text-xl font-semibold">UI/UX Design</h3>
+                    <p>Create designs that are both visually appealing and intuitive to use, focusing on user experience.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <div class="mb-24"></div>
+      
+          <section class="flex w-full h-fit py-12 relative">
+            <div class="bg-white h-[400px] w-[800px] shadow-sm p-14 absolute top-1/2 left-1/2 transform -translate-x-1/4 -translate-y-1/4 z-10">
+                <div class="flex flex-col shadow-lg p-12 gap-5 w-[500px]">
+                    <h1 class="text-3xl font-bold">How We Work?</h1>
+                    <p class="text-gray-600 ">Let's discuss what project you have in mind</p>
+                    <button class="bg-gray-800 text-white px-4 py-4 rounded-md hover:bg-gray-700 transition">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        
+            <div class="bg-[url('./img/landscape-laptop.jpg')] bg-cover bg-center h-[400px] w-1/3 shadow-lg"></div>
+            <div class="bg-[url('./img/1.jpg')] bg-cover bg-center h-[400px] w-full shadow-lg"></div> 
+        </section>
+
+        <div class="mb-24"></div>
+
+
+        <section>
+            <div class="flex line-clamp-2 items-center justify-center text-center">
+                <h1 class="text-4xl text-slate-400 font-extrabold">Our Customers <br> are our biggest fans</h1>
+            </div>
+        </section>
+
+
+
+        <div class="mb-24"></div>
+
+        <div class="flex line-clamp-2 items-center justify-center text-center">
+            <h1 class="text-4xl text-slate-400 font-extrabold">Our Teams</h1>
+        </div>
+        <section class="flex justify-center mt-4 items-end">
+            <div class="p-4">
+                <div class="w-[300px] h-[400px] bg-slate-100 rounded-lg flex flex-col items-center">
+                    <div class="w-[300px] h-[300px] rounded-full bg-gray-400 bg-[url('./img/profile-1.png')] bg-cover bg-center"></div>
+                    <div class="flex flex-col gap-1 font-extrabold text-center mt-3">
+                        <h1 class="text-black font-bold text-xl">Sherine Malik</h1>
+                        <p class="text-slate-500">COO</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="p-4">
+                <div class="w-[500px] h-[600px] bg-slate-100 rounded-lg flex flex-col items-center">
+                    <div class="w-[500px] h-[500px] rounded-full bg-gray-400 bg-[url('./img/profile-1.png')] bg-cover bg-center"></div>
+                    <div class="flex flex-col gap-1 font-extrabold text-center mt-3">
+                        <h1 class="text-black font-bold text-xl">Sherine Malik</h1>
+                        <p class="text-slate-500">COO</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="p-4">
+                <div class="w-[300px] h-[400px] bg-slate-100 rounded-lg flex flex-col items-center">
+                    <div class="w-[300px] h-[300px] rounded-full bg-gray-400 bg-[url('./img/profile-1.png')] bg-cover bg-center"></div>
+                    <div class="flex flex-col gap-1 font-extrabold text-center mt-3">
+                        <h1 class="text-black font-bold text-xl">Sherine Malik</h1>
+                        <p class="text-slate-500">COO</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="mb-24"></div>
+
+        <section>
+        <div class="flex flex-col md:flex-row items-center justify-center p-8 max-w-6xl mx-auto h-[500px]">
+            <div class="flex flex-col items-center md:space-x-6">
+                <h1 class="text-5xl font-extrabold text-slate-800 mt-6 md:mt-0 p-4">Join Our Team</h1>
+              <img src="./img/team.jpg" alt="Team" class="w-80 h-60 object-cover rounded-md">
+            </div>
+        
+            <div class="flex flex-col md:ml-8 text-gray-600 max-w-lg">
+              <p class="text-lg mt-6 md:mt-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et at fringilla id maecenas in scelerisque in. Pharetra, erat amet, vestibulum ullamcorper. Nunc feugiat lacus et eget urna ornare risus malesuada. Cursus morbi vel sed ipsum eget tincidunt ultrices.
+              </p>
+              <button class="mt-8 bg-gray-800 text-white py-3 px-8 rounded-md hover:bg-gray-700 text-lg">
+                Apply
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <footer class="bg-white dark:bg-gray-900">
+            <div class="mx-auto w-full max-w-screen-xl">
+              <div class="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Location</h2>
+                    <div class="bg-gray-300 rounded-lg overflow-hidden">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7436424032785!2d112.74410751021821!3d-7.269986392706682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd85e721437%3A0x9b05186e08aea1f1!2sKayoon%20St%2C%20Embong%20Kaliasin%2C%20Genteng%2C%20Surabaya%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1729244438096!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-40 object-cover"></iframe>
+                        <div class="p-4">
+                            <h3 class="text-lg font-bold">Twiscode</h3>
+                            <p>Jl. Kayoon, Surabaya</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Discord Server</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Twitter</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Facebook</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Privacy Policy</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Licensing</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Terms & Conditions</a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div>
+                    <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Download</h2>
+                    <ul class="text-gray-500 dark:text-gray-400 font-medium">
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">iOS</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Android</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">Windows</a>
+                        </li>
+                        <li class="mb-4">
+                            <a href="#" class="hover:underline">MacOS</a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+        
+              <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
+                <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="https://flowbite.com/">twis<span class="bg-gradient-to-tr from-green-400 to-yellow-300 bg-clip-text text-transparent">co</span>de™</a>. All Rights Reserved.
+                </span>
+                <div class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
+                    <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                          <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
+                                <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
+                            </svg>
+                          <span class="sr-only">Facebook page</span>
+                      </a>
+                      <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                          <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
+                                <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
+                            </svg>
+                          <span class="sr-only">Discord community</span>
+                      </a>
+                      <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                          <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
+                            <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.73 11.73 0 0 0 6.29 16c7.547 0 11.675-6.134 11.675-11.454l-.014-.52A8.091 8.091 0 0 0 20 1.892Z" clip-rule="evenodd"/>
+                          </svg>
+                          <span class="sr-only">Twitter page</span>
+                      </a>
+                      <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+                          <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 0 20A10 10 0 0 0 10 0Zm0 18.182a8.182 8.182 0 1 1 0-16.364 8.182 8.182 0 0 1 0 16.364Zm0-11.773a1.364 1.364 0 1 1 0-2.727 1.364 1.364 0 0 1 0 2.727Zm0 1.364a4.545 4.545 0 1 0 0 9.09 4.545 4.545 0 0 0 0-9.09Z" clip-rule="evenodd"/>
+                          </svg>
+                          <span class="sr-only">Instagram page</span>
+                      </a>
+                </div>
+              </div>
+            </div>
+        </footer>
+        
+
+        
+
+        <script>
+            const searchIcon = document.getElementById('search-icon');
+            const searchContainer = document.getElementById('search-container');
+            const closeSearchButton = document.getElementById('close-search');
+    
+            searchIcon.addEventListener('click', () => {
+                searchContainer.classList.remove('translate-x-full');
+                searchContainer.classList.add('translate-x-0');
+            });
+    
+            closeSearchButton.addEventListener('click', () => {
+                searchContainer.classList.add('translate-x-full');
+                searchContainer.classList.remove('translate-x-0');
+            });
+        </script>
+</body>
+</html>
